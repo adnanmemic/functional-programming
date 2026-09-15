@@ -1,6 +1,7 @@
 #lang racket
 
-;Number 1----------------------------
+;Exercise 1----------------------------
+
 (define a 3)
 
 (define b (+ a 1))
@@ -34,8 +35,8 @@
 
 ((if (< a b) + -) a b)
 
+;Exercise 2------------------------------
 
-;Number 2------------------------------
 (define (sign x)
   (cond ((> x 0) 1)
         ((< x 0) -1)
@@ -47,8 +48,8 @@
 
 (sign 0)
 
+;Exercise 3------------------------------
 
-;Number 3------------------------------
 (define (square z) (* z z))
 
 (define (sumSquareBigger m n s)
@@ -61,8 +62,8 @@
 (sumSquareBigger 4 2 3)
 (sumSquareBigger 4 5 3)
 
+;Exercise 4------------------------------
 
-;Number 4------------------------------
 ;a)
 (define (areaRect length width) (* length width))
 
@@ -73,8 +74,8 @@
 
 (circumferenceCircle 5)
 
+;Exercise 5------------------------------
 
-;Number 5------------------------------
 ;a)
 (define (mynot e f)
   (if(> e f)
